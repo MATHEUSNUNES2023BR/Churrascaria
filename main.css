@@ -1,0 +1,88 @@
+.navbar{
+    background-color: #333232;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #111111;
+}
+#cabecalho .nav .nav-link,.navbar-brand, .navbar-brand:hover , .nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+#cabecalho .nav-item{
+    margin: 0 0.8vw;
+}
+
+.section-title{
+    font-family: pacifico, cursive;
+    color: #b6b5b5;
+}
+
+#sobre-o-restaurante{
+    background-image: url(images/Fundo.png);
+    object-fit: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#sobre-o-restaurante .carousel img{
+    height: 650px;
+}
+#eventos{
+    background-color: #2e2d2d;
+}
+.text-colored{
+    color: #fcfcfc;
+}
+.nav-cardapio .nav-link.active, #fale-conosco button{
+    background-color: #e15f41;
+    color: #fff;
+}
+.nav-cardapio .nav-link:hover{
+    color: #e15f41;
+}
+.navbar-toggler{
+    background-color: #616060;
+}
+#cardapio{
+    background-color: #2e2d2d;  
+}
+#cardapio h5{
+    color: white; 
+}
+#cardapio p{
+    color: rgb(168, 167, 167); 
+}
+
+#fale-conosco{
+    background-color: #2e2d2d;
+}
+#fale-conosco p{
+    color: white;
+}
+.social-links li{
+    list-style-type: none;
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .carousel-item img{
+        height: 280px;
+    }
+    #cardapio aside{
+        font-size: 1.4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    #sobre-o-restaurante .carousel img{
+        height: 440px;
+    }
+}
+
+@media screen and (min-width:50px) and (max-width:576px) {
+    #sobre-o-restaurante .carousel img{
+        height: 55vh;
+    }
+}
